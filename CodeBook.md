@@ -586,8 +586,8 @@
 
 
 ###Features from independent tidy data set (average of each variable for each Activity Level and each Subject)
-1. tBodyAcc-mean()-X  		* * *.Mean of Time-domain Body Acceleration (X-Axial)
-2. tBodyAcc-mean()-Y         	* * *.Mean of Time-domain Body Acceleration (Y-Axial)
+1. tBodyAcc-mean()-X  		***.Mean of Time-domain Body Acceleration (X-Axial)
+2. tBodyAcc-mean()-Y         	***.Mean of Time-domain Body Acceleration (Y-Axial)
 3. tBodyAcc-mean()-Z     	.Mean of Time-domain Body Acceleration (Z-Axial)
 4. tBodyAcc-std()-X      	.Standard Deviation of Time-domain Body Acceleration (X-Axial)
 5. tBodyAcc-std()-Y    		.Standard Deviation of Time-domain Body Acceleration (Y-Axial)
