@@ -586,70 +586,72 @@
 
 
 ###Features from independent tidy data set (average of each variable for each Activity Level and each Subject)
-1. tBodyAcc-mean()-X  		***.Mean of Time-domain Body Acceleration (X-Axial)
-2. tBodyAcc-mean()-Y         	***.Mean of Time-domain Body Acceleration (Y-Axial)
-3. tBodyAcc-mean()-Z     	.Mean of Time-domain Body Acceleration (Z-Axial)
-4. tBodyAcc-std()-X      	.Standard Deviation of Time-domain Body Acceleration (X-Axial)
-5. tBodyAcc-std()-Y    		.Standard Deviation of Time-domain Body Acceleration (Y-Axial)
-6. tBodyAcc-std()-Z       	.Standard Deviation of Time-domain Body Acceleration (Z-Axial)
-7. tGravityAcc-mean()-X    	.Mean of Time-domain Gravitational Acceleration (X-Axial)
-8. tGravityAcc-mean()-Y   	.Mean of Time-domain Gravitational Acceleration (Y-Axial)
-9. tGravityAcc-mean()-Z   	.Mean of Time-domain Gravitational Acceleration (Z-Axial)
-10. tGravityAcc-std()-X   	.Standard Deviation of Time-domain Gravitational Acceleration (X-Axial)
-11. tGravityAcc-std()-Y    	.Standard Deviation of Time-domain Gravitational Acceleration (Y-Axial)
-12. tGravityAcc-std()-Z     	.Standard Deviation of Time-domain Gravitational Acceleration (Z-Axial)
-13. tBodyAccJerk-mean()-X  	.Mean of Time-domain Body Acceleration Jerk (X-Axial)
-14. tBodyAccJerk-mean()-Y  	.Mean of Time-domain Body Acceleration Jerk (Y-Axial)
-15. tBodyAccJerk-mean()-Z  	.Mean of Time-domain Body Acceleration Jerk (Z-Axial)
-16. tBodyAccJerk-std()-X  	.Standard Deviation of Time-domain Body Acceleration Jerk (X-Axial)
-17. tBodyAccJerk-std()-Y    	.Standard Deviation of Time-domain Body Acceleration Jerk (Y-Axial)
-18. tBodyAccJerk-std()-Z   	.Standard Deviation of Time-domain Body Acceleration Jerk (Z-Axial)
-19. tBodyGyro-mean()-X    	.Mean of Time-domain Angular Velocity (X-Axial)
-20. tBodyGyro-mean()-Y     	.Mean of Time-domain Angular Velocity (Y-Axial)
-21. tBodyGyro-mean()-Z     	.Mean of Time-domain Angular Velocity (Z-Axial)
-22. tBodyGyro-std()-X     	.Standard Deviation of Time-domain Angular Velocity (X-Axial)
-23. tBodyGyro-std()-Y    	.Standard Deviation of Time-domain Angular Velocity (Y-Axial)
-24. tBodyGyro-std()-Z      	.Standard Deviation of Time-domain Angular Velocity (Z-Axial)
-25. tBodyGyroJerk-mean()-X   	.Mean of Time-domain Angular Velocity Jerk Signal (X-Axial)
-26. tBodyGyroJerk-mean()-Y  	.Mean of Time-domain Angular Velocity Jerk Signal (Y-Axial)
-27. tBodyGyroJerk-mean()-Z  	.Mean of Time-domain Angular Velocity Jerk Signal (Z-Axial)
-28. tBodyGyroJerk-std()-X   	.Standard Deviation of Time-domain Angular Velocity Jerk (X-Axial)
-29. tBodyGyroJerk-std()-Y  	.Standard Deviation of Time-domain Angular Velocity Jerk (Y-Axial)
-30. tBodyGyroJerk-std()-Z    	.Standard Deviation of Time-domain Angular Velocity Jerk (Z-Axial)
-31. tBodyAccMag-mean()    	.Mean of Time-domain Body Acceleration Magnitude
-32. tBodyAccMag-std()    	.Standard Deviation of Time-domain Body Acceleration Magnitude
-33. tGravityAccMag-mean()   	.Mean of Time-domain Gravitational Acceleration Magnitude
-34. tGravityAccMag-std()    	.Standard Deviation of Time-domain Gravitational Acceleration Magnitude
-35. tBodyAccJerkMag-mean()   	.Mean of Time-domain Body Acceleration Jerk Magnitude
-36. tBodyAccJerkMag-std()     	.Standard Deviation of Time-domain Body Acceleration Jerk Magnitude
-37. tBodyGyroMag-mean()  	.Mean of Time-domain Angular Velocity Magnitude
-38. tBodyGyroMag-std()    	.Standard Deviation of Time-domain Angular Velocity Magnitude
-39. tBodyGyroJerkMag-mean() 	.Mean of Time-domain Angular Velocity Jerk Magnitude
-40. tBodyGyroJerkMag-std()  	.Standard Deviation of Time-domain Angular Velocity Jerk Magnitude
-41. fBodyAcc-mean()-X     	.Mean of Frequency-domain Body Acceleration (X-Axial)
-42. fBodyAcc-mean()-Y         	.Mean of Frequency-domain Body Acceleration (Y-Axial)
-43. fBodyAcc-mean()-Z        	.Mean of Frequency-domain Body Acceleration (Z-Axial)
-44. fBodyAcc-std()-X         	.Standard Deviation of Frequency-domain Body Acceleration (X-Axial)
-45. fBodyAcc-std()-Y          	.Standard Deviation of Frequency-domain Body Acceleration (Y-Axial)
-46. fBodyAcc-std()-Z         	.Standard Deviation of Frequency-domain Body Acceleration (Z-Axial)
-47. fBodyAccJerk-mean()-X    	.Mean of Frequency-domain Body Acceleration Jerk (X-Axial)
-48. fBodyAccJerk-mean()-Y     	.Mean of Frequency-domain Body Acceleration Jerk (Y-Axial)
-49. fBodyAccJerk-mean()-Z    	.Mean of Frequency-domain Body Acceleration Jerk (Z-Axial)
-50. fBodyAccJerk-std()-X     	.Standard Deviation of Frequency-domain Body Acceleration Jerk (X-Axial)
-51. fBodyAccJerk-std()-Y     	.Standard Deviation of Frequency-domain Body Acceleration Jerk (Y-Axial)
-52. fBodyAccJerk-std()-Z      	.Standard Deviation of Frequency-domain Body Acceleration Jerk (Z-Axial)
-53. fBodyGyro-mean()-X        	.Mean of Frequency-domain Angular Velocity (X-Axial)
-54. fBodyGyro-mean()-Y    	.Mean of Frequency-domain Angular Velocity (Y-Axial)
-55. fBodyGyro-mean()-Z       	.Mean of Frequency-domain Angular Velocity (Z-Axial)
-56. fBodyGyro-std()-X        	.Standard Deviation of Frequency-domain Angular Velocity (X-Axial)
-57. fBodyGyro-std()-Y      	.Standard Deviation of Frequency-domain Angular Velocity (Y-Axial)
-58. fBodyGyro-std()-Z       	.Standard Deviation of Frequency-domain Angular Velocity (Z-Axial)
-59. fBodyAccMag-mean()      	.Mean of Frequency-domain Body Acceleration Magnitude
-60. fBodyAccMag-std()         	.Standard Deviation of Frequency-domain Body Acceleration Magnitude
-61. fBodyBodyAccJerkMag-mean()	.Mean of Frequency-domain Body Body Acceleration Jerk Magnitude
-62. fBodyBodyAccJerkMag-std()	.Standard Deviation of Frequency-domain Body Body Acceleration Jerk Magnitude
-63. fBodyBodyGyroMag-mean()  	.Mean of Frequency-domain Body Angular Velocity Magnitude
-64. fBodyBodyGyroMag-std()   	.Standard Deviation of Frequency-domain Body Angular Velocity Magnitude
+<table>							
+<tr>	<td>	1. tBodyAcc-mean()-X  		</td>	<td>	.Mean of Time-domain Body Acceleration (X-Axial)			</td>	</tr>
+<tr>	<td>	2. tBodyAcc-mean()-Y         	</td>	<td>	.Mean of Time-domain Body Acceleration (Y-Axial)			</td>	</tr>
+<tr>	<td>	3. tBodyAcc-mean()-Z     	</td>	<td>	.Mean of Time-domain Body Acceleration (Z-Axial)			</td>	</tr>
+<tr>	<td>	4. tBodyAcc-std()-X      	</td>	<td>	.Standard Deviation of Time-domain Body Acceleration (X-Axial)		</td>	</tr>
+<tr>	<td>	5. tBodyAcc-std()-Y    		</td>	<td>	.Standard Deviation of Time-domain Body Acceleration (Y-Axial)		</td>	</tr>
+<tr>	<td>	6. tBodyAcc-std()-Z       	</td>	<td>	.Standard Deviation of Time-domain Body Acceleration (Z-Axial)		</td>	</tr>
+<tr>	<td>	7. tGravityAcc-mean()-X    	</td>	<td>	.Mean of Time-domain Gravitational Acceleration (X-Axial)		</td>	</tr>
+<tr>	<td>	8. tGravityAcc-mean()-Y   	</td>	<td>	.Mean of Time-domain Gravitational Acceleration (Y-Axial)		</td>	</tr>
+<tr>	<td>	9. tGravityAcc-mean()-Z   	</td>	<td>	.Mean of Time-domain Gravitational Acceleration (Z-Axial)		</td>	</tr>
+<tr>	<td>	10. tGravityAcc-std()-X   	</td>	<td>	.Standard Deviation of Time-domain Gravitational Acceleration (X-Axial)	</td>	</tr>
+<tr>	<td>	11. tGravityAcc-std()-Y    	</td>	<td>	.Standard Deviation of Time-domain Gravitational Acceleration (Y-Axial)	</td>	</tr>
+<tr>	<td>	12. tGravityAcc-std()-Z     	</td>	<td>	.Standard Deviation of Time-domain Gravitational Acceleration (Z-Axial)	</td>	</tr>
+<tr>	<td>	13. tBodyAccJerk-mean()-X  	</td>	<td>	.Mean of Time-domain Body Acceleration Jerk (X-Axial)			</td>	</tr>
+<tr>	<td>	14. tBodyAccJerk-mean()-Y  	</td>	<td>	.Mean of Time-domain Body Acceleration Jerk (Y-Axial)			</td>	</tr>
+<tr>	<td>	15. tBodyAccJerk-mean()-Z  	</td>	<td>	.Mean of Time-domain Body Acceleration Jerk (Z-Axial)			</td>	</tr>
+<tr>	<td>	16. tBodyAccJerk-std()-X  	</td>	<td>	.Standard Deviation of Time-domain Body Acceleration Jerk (X-Axial)	</td>	</tr>
+<tr>	<td>	17. tBodyAccJerk-std()-Y    	</td>	<td>	.Standard Deviation of Time-domain Body Acceleration Jerk (Y-Axial)	</td>	</tr>
+<tr>	<td>	18. tBodyAccJerk-std()-Z   	</td>	<td>	.Standard Deviation of Time-domain Body Acceleration Jerk (Z-Axial)	</td>	</tr>
+<tr>	<td>	19. tBodyGyro-mean()-X    	</td>	<td>	.Mean of Time-domain Angular Velocity (X-Axial)				</td>	</tr>
+<tr>	<td>	20. tBodyGyro-mean()-Y     	</td>	<td>	.Mean of Time-domain Angular Velocity (Y-Axial)				</td>	</tr>
+<tr>	<td>	21. tBodyGyro-mean()-Z     	</td>	<td>	.Mean of Time-domain Angular Velocity (Z-Axial)				</td>	</tr>
+<tr>	<td>	22. tBodyGyro-std()-X     	</td>	<td>	.Standard Deviation of Time-domain Angular Velocity (X-Axial)		</td>	</tr>
+<tr>	<td>	23. tBodyGyro-std()-Y    	</td>	<td>	.Standard Deviation of Time-domain Angular Velocity (Y-Axial)		</td>	</tr>
+<tr>	<td>	24. tBodyGyro-std()-Z      	</td>	<td>	.Standard Deviation of Time-domain Angular Velocity (Z-Axial)		</td>	</tr>
+<tr>	<td>	25. tBodyGyroJerk-mean()-X   	</td>	<td>	.Mean of Time-domain Angular Velocity Jerk Signal (X-Axial)		</td>	</tr>
+<tr>	<td>	26. tBodyGyroJerk-mean()-Y  	</td>	<td>	.Mean of Time-domain Angular Velocity Jerk Signal (Y-Axial)		</td>	</tr>
+<tr>	<td>	27. tBodyGyroJerk-mean()-Z  	</td>	<td>	.Mean of Time-domain Angular Velocity Jerk Signal (Z-Axial)		</td>	</tr>
+<tr>	<td>	28. tBodyGyroJerk-std()-X   	</td>	<td>	.Standard Deviation of Time-domain Angular Velocity Jerk (X-Axial)	</td>	</tr>
+<tr>	<td>	29. tBodyGyroJerk-std()-Y  	</td>	<td>	.Standard Deviation of Time-domain Angular Velocity Jerk (Y-Axial)	</td>	</tr>
+<tr>	<td>	30. tBodyGyroJerk-std()-Z    	</td>	<td>	.Standard Deviation of Time-domain Angular Velocity Jerk (Z-Axial)	</td>	</tr>
+<tr>	<td>	31. tBodyAccMag-mean()    	</td>	<td>	.Mean of Time-domain Body Acceleration Magnitude			</td>	</tr>
+<tr>	<td>	32. tBodyAccMag-std()    	</td>	<td>	.Standard Deviation of Time-domain Body Acceleration Magnitude		</td>	</tr>
+<tr>	<td>	33. tGravityAccMag-mean()   	</td>	<td>	.Mean of Time-domain Gravitational Acceleration Magnitude		</td>	</tr>
+<tr>	<td>	34. tGravityAccMag-std()    	</td>	<td>	.Standard Deviation of Time-domain Gravitational Acceleration Magnitude	</td>	</tr>
+<tr>	<td>	35. tBodyAccJerkMag-mean()   	</td>	<td>	.Mean of Time-domain Body Acceleration Jerk Magnitude			</td>	</tr>
+<tr>	<td>	36. tBodyAccJerkMag-std()     	</td>	<td>	.Standard Deviation of Time-domain Body Acceleration Jerk Magnitude	</td>	</tr>
+<tr>	<td>	37. tBodyGyroMag-mean()  	</td>	<td>	.Mean of Time-domain Angular Velocity Magnitude				</td>	</tr>
+<tr>	<td>	38. tBodyGyroMag-std()    	</td>	<td>	.Standard Deviation of Time-domain Angular Velocity Magnitude		</td>	</tr>
+<tr>	<td>	39. tBodyGyroJerkMag-mean() 	</td>	<td>	.Mean of Time-domain Angular Velocity Jerk Magnitude			</td>	</tr>
+<tr>	<td>	40. tBodyGyroJerkMag-std()  	</td>	<td>	.Standard Deviation of Time-domain Angular Velocity Jerk Magnitude	</td>	</tr>
+<tr>	<td>	41. fBodyAcc-mean()-X     	</td>	<td>	.Mean of Frequency-domain Body Acceleration (X-Axial)			</td>	</tr>
+<tr>	<td>	42. fBodyAcc-mean()-Y         	</td>	<td>	.Mean of Frequency-domain Body Acceleration (Y-Axial)			</td>	</tr>
+<tr>	<td>	43. fBodyAcc-mean()-Z        	</td>	<td>	.Mean of Frequency-domain Body Acceleration (Z-Axial)			</td>	</tr>
+<tr>	<td>	44. fBodyAcc-std()-X         	</td>	<td>	.Standard Deviation of Frequency-domain Body Acceleration (X-Axial)	</td>	</tr>
+<tr>	<td>	45. fBodyAcc-std()-Y          	</td>	<td>	.Standard Deviation of Frequency-domain Body Acceleration (Y-Axial)	</td>	</tr>
+<tr>	<td>	46. fBodyAcc-std()-Z         	</td>	<td>	.Standard Deviation of Frequency-domain Body Acceleration (Z-Axial)	</td>	</tr>
+<tr>	<td>	47. fBodyAccJerk-mean()-X    	</td>	<td>	.Mean of Frequency-domain Body Acceleration Jerk (X-Axial)		</td>	</tr>
+<tr>	<td>	48. fBodyAccJerk-mean()-Y     	</td>	<td>	.Mean of Frequency-domain Body Acceleration Jerk (Y-Axial)		</td>	</tr>
+<tr>	<td>	49. fBodyAccJerk-mean()-Z    	</td>	<td>	.Mean of Frequency-domain Body Acceleration Jerk (Z-Axial)		</td>	</tr>
+<tr>	<td>	50. fBodyAccJerk-std()-X     	</td>	<td>	.Standard Deviation of Frequency-domain Body Acceleration Jerk (X-Axial)</td>	</tr>
+<tr>	<td>	51. fBodyAccJerk-std()-Y     	</td>	<td>	.Standard Deviation of Frequency-domain Body Acceleration Jerk (Y-Axial)</td>	</tr>
+<tr>	<td>	52. fBodyAccJerk-std()-Z      	</td>	<td>	.Standard Deviation of Frequency-domain Body Acceleration Jerk (Z-Axial)</td>	</tr>
+<tr>	<td>	53. fBodyGyro-mean()-X        	</td>	<td>	.Mean of Frequency-domain Angular Velocity (X-Axial)			</td>	</tr>
+<tr>	<td>	54. fBodyGyro-mean()-Y    	</td>	<td>	.Mean of Frequency-domain Angular Velocity (Y-Axial)			</td>	</tr>
+<tr>	<td>	55. fBodyGyro-mean()-Z       	</td>	<td>	.Mean of Frequency-domain Angular Velocity (Z-Axial)			</td>	</tr>
+<tr>	<td>	56. fBodyGyro-std()-X        	</td>	<td>	.Standard Deviation of Frequency-domain Angular Velocity (X-Axial)	</td>	</tr>
+<tr>	<td>	57. fBodyGyro-std()-Y      	</td>	<td>	.Standard Deviation of Frequency-domain Angular Velocity (Y-Axial)	</td>	</tr>
+<tr>	<td>	58. fBodyGyro-std()-Z       	</td>	<td>	.Standard Deviation of Frequency-domain Angular Velocity (Z-Axial)	</td>	</tr>
+<tr>	<td>	59. fBodyAccMag-mean()      	</td>	<td>	.Mean of Frequency-domain Body Acceleration Magnitude			</td>	</tr>
+<tr>	<td>	60. fBodyAccMag-std()         	</td>	<td>	.Standard Deviation of Frequency-domain Body Acceleration Magnitude	</td>	</tr>
+<tr>	<td>	61. fBodyBodyAccJerkMag-mean()	</td>	<td>	.Mean of Frequency-domain Body Body Acceleration Jerk Magnitude		</td>	</tr>
+<tr>	<td>	62. fBodyBodyAccJerkMag-std()	</td>	<td>	.Standard Deviation of Frequency-domain Body Body Acceleration Jerk Magnitude	</td>	</tr>
+<tr>	<td>	63. fBodyBodyGyroMag-mean()  	</td>	<td>	.Mean of Frequency-domain Body Angular Velocity Magnitude		</td>	</tr>
+<tr>	<td>	64. fBodyBodyGyroMag-std()   	</td>	<td>	.Standard Deviation of Frequency-domain Body Angular Velocity Magnitude	</td>	</tr>
+</table>							
 
 
 ###Data Transformation
